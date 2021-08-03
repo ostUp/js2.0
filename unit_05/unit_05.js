@@ -5,7 +5,9 @@
 
 
 function t1() {
-
+	for (let i = 0; i < 16; i++) {
+		// document.querySelector('.out-1') = (`${i}_`)
+	}
 }
 
 document.querySelector('.b-1').onclick = t1;
